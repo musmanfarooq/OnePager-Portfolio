@@ -14,6 +14,11 @@
 
 .navbar__logo {
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar__logo:hover {
+  transform: scale(1.1);
 }
 
 .navbar__links {
@@ -22,12 +27,14 @@
   gap: 20px;
 }
 
-.navbar__github, .navbar__mail{
-    cursor: pointer;
-    transition: all 0.3 ease;
-    width: 30px;
+.navbar__github,
+.navbar__mail {
+  cursor: pointer;
+  transition: all 0.3 ease;
+  width: 30px;
 }
 
-.navbar__github:hover, .navbar__mail:hover{
-    transform: scale(1.1);
+.navbar__github:hover,
+.navbar__mail:hover {
+  transform: scale(1.1);
 }

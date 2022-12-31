@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className="container">
       <div className="navbar">
-        <div className="navbar__logo">Logo</div>
+        <div className="navbar__logo">Usman</div>
         <div className="navbar__links">
           <a href="mailto:m.usmanfarooq753@gmail.com">
             <img

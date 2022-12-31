@@ -1,0 +1,43 @@
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  align-items: center;
+  gap: 30px;
+}
+
+.herosection__projects {
+  flex-basis: 30.9017%;
+}
+
+.herosection__intro h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.herosection__intro p {
+  font-size: 14px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.herosection__projects h1 {
+font-size: 30px;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  background: transparent;
+  color: #d1d1d1;
+  border-radius: 8px;
+  border: 1px solid #d1d1d1;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #d1d1d1;
+  color: #333;
+}

@@ -1,0 +1,17 @@
+.conatiner {
+  padding: 0px 35px;
+}
+
+.conatiner svg {
+  position: absolute;
+  z-index: -1;
+}
+
+.top__corner {
+  top: 0;
+}
+
+.bottom__corner {
+  right: 2%;
+  bottom: 0;
+}

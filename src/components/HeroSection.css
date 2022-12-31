@@ -21,23 +21,40 @@
   text-align: justify;
 }
 
-.herosection__projects h1 {
-font-size: 30px;
-  font-weight: 400;
-}
-
 button {
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 8px 20px;
   background: transparent;
   color: #d1d1d1;
   border-radius: 8px;
   border: 1px solid #d1d1d1;
   margin-right: 10px;
-  transition: all 0.3s ease;
 }
 
 button:hover {
-  background: #d1d1d1;
-  color: #333;
+  transform: scale(1.02);
+}
+
+.button__download {
+  width: 28px;
+  margin-left: 10px;
+}
+
+.button__flex {
+  display: flex;
+  align-items: center;
+}
+
+.herosection__projects h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.herosection__projects p {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.herosection__projects p:hover {
+  border-bottom: 1px solid #d1d1d1;
 }

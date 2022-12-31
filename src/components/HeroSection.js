@@ -1,5 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
+import download from "../pictures/download.png";
+import mail from "../pictures/mail.png";
 
 export const HeroSection = () => {
   return (
@@ -18,20 +20,32 @@ export const HeroSection = () => {
             interfaces and intuitively implemented UX.
           </p>
           <a href="mailto:m.usmnanfarooq753@gmail.com">
-            <button>Contact Me</button>
+            <button>
+              <div className="button__flex">
+                Contact Me
+                <img
+                  className="button__download"
+                  src={mail}
+                  alt="mail icon"
+                />
+              </div>
+            </button>
           </a>
-          <button>Resume</button>
+          <button>
+            <div className="button__flex">
+              Resume/CV
+              <img
+                className="button__download"
+                src={download}
+                alt="download icon"
+              />
+            </div>
+          </button>
         </div>
         <div className="herosection__projects">
           <h1>Projects.</h1>
-          <ul>
-            <a herf="#">
-              <li>Desginer Nation</li>
-            </a>
-            <a herf="#">
-              <li>Advanced Insurnace Online</li>
-            </a>
-          </ul>
+          <p>Desginer Nation</p>
+          <p>Advanced Insurnace Online</p>
         </div>
       </div>
     </div>

@@ -18,4 +18,16 @@
 
 .navbar__links {
   cursor: pointer;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar__github, .navbar__mail{
+    cursor: pointer;
+    transition: all 0.3 ease;
+    width: 30px;
+}
+
+.navbar__github:hover, .navbar__mail:hover{
+    transform: scale(1.1);
 }

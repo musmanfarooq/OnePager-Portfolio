@@ -1,0 +1,14 @@
+.herosection__projects h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .herosection__projects p {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .herosection__projects p:hover {
+    border-bottom: 1px solid #d1d1d1;
+  }
+  

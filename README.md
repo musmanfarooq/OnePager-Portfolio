@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 ### `Live Link`
-Open [http://localhost:3000](Live Link)
+Open [Live Link](https://usman-farooq05.web.app/)
 
 ### `npm start`
 

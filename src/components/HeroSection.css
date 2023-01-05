@@ -8,3 +8,11 @@
 .herosection__projects {
   flex-basis: 30.9017%;
 }
+
+
+@media screen and (max-Width: 976px) {
+  .herosection{
+    flex-direction: column;
+    padding-left: 10px;
+  }
+}

@@ -36,3 +36,22 @@ button:hover {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 976px) {
+  .herosection__intro h1 {
+    font-size: 40px;
+  }
+
+  .herosection__intro p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .herosection__intro h1 {
+    font-size: 30px;
+  }
+  button{
+    margin-bottom: 20px;
+  }
+}
